@@ -62,19 +62,19 @@ input[type="password"] {
     
 }
 .input-container {
-    position: relative;
     display: flex;
     align-items: center;
+    position: relative;
 }
-
 .input-container i {
     position: absolute;
-    left: 10px;
-    color: grey;
+    left: 10px; 
+    color: grey; 
 }
-
 .input-container input {
-    padding-left: 30px;
+    padding-left: 40px;
+    width: 100%; 
+    box-sizing: border-box;
 }
 input[type="text"]:focus,
 input[type="email"]:focus,
