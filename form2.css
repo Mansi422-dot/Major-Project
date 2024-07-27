@@ -1,5 +1,5 @@
 
-.hero-section{
+.main-section{
     background-image: url(https://getwallpapers.com/wallpaper/full/5/3/6/834405-most-popular-learning-wallpapers-1920x1080-for-iphone-5.jpg);
     background-size:cover;
     background-blend-mode: overlay;
@@ -11,10 +11,10 @@
 h1{
     font-size:35px;
 }
-.hero-text>p{
+.main-text>p{
     font-size:20px;
 }
-.hero-text{
+.main-text{
     color:black;
     position:absolute;
     top:20%;
@@ -120,14 +120,15 @@ input[type="password"]:focus {
     justify-content: space-around;
     align-content: center;
 }
-.about-us{
+.about-us,
+.contact-us{
     width:50%;
 }
 .about-heading{
     text-align:center;
     margin:10 px;
 }
-.amenities ul{
+.provide ul{
     display:inline-block;
     text-align:left;
     margin-top:10px;
@@ -138,42 +139,74 @@ ul li{
 .fa-solid{
     margin: 10px;
 }
+.about-us>p{
+    font-size:20px;
+}
+.contact-us>p{
+    font-size: 17px;
+}
 
 @media only screen and (max-width:500px){
-    .hero-text>h1{
-        font-size: 22px;
+    .main-text>h1{
+        font-size: 29px;
         text-decoration:none ;
     }
-    .hero-text>p{
-        font-size: 15px;
+    .main-text>p{
+        font-size: 15.4px;
     }
-    .hero-text{
+    .main-text{
         margin-top:90px;
     }
-    .hero-section{
+    .main-section{
         height:90dvh;
         background-size:cover;
     }
+    h2{
+        font-size:20px;
+    }
+    
+    .about-heading>h1{
+        font-size:17px;
+    }
+    .about-us>p{
+        font-size:14px;
+    }
+    .about-us>h3{
+        font-size:15px;
+    }
 }
+
 @media only screen and (min-width:500px) and (max-width:660px){
-    .hero-text>h1{
-        font-size: 22x;
+    .main-text>h1{
+        font-size: 31px;
         text-decoration:none ;
     }
-    .hero-text>p{
-        font-size: 15px;
+    .main-text>p{
+        font-size: 17px;
     }
-    .hero-text{
+    .main-text{
         margin-top:110px;
     }
     
-    .hero-section{
+    .main-section{
         height:100dvh;
         background-size:cover;
     }
+    h2{
+        font-size:22px;
+    }
+    .about-heading>h1{
+        font-size:20px;
+    }
+    .about-us>p{
+        font-size:16px;
+    }
+    .about-us>h3{
+        font-size:19px;
+    }
 }
 @media only screen and (min-width:660px) and (max-width:980px){
-    .hero-text>h1{
+    .main-text>h1{
         font-size: 2rem;
         text-decoration:none ;
     }
@@ -181,13 +214,23 @@ ul li{
         font-size: 0.7rem;
     }
     
-    .hero-text{
+    .main-text{
         margin-top:90px;
     }
     
-    .hero-section{
+    .main-section{
         height:110dvh;
         background-size:cover;
+    }
+    
+    .about-heading>h1{
+        font-size:25px;
+    }
+    .about-us>p{
+        font-size:19px;
+    }
+    .about-us>h3{
+        font-size:23px;
     }
 }
 
