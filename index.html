@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/f2630b5e81.js" crossorigin="anonymous"></script>
+    <title>Form Validation</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="C:\Users\MANSI\AppData\Local\Temp\b2ee5059-f39c-46d8-b480-84fd9f548257_favicon_io (1).zip.257\apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/c:\Users\MANSI\AppData\Local\Temp\7c22a134-1720-4d75-8fee-dd885e6ac9c3_favicon_io (1).zip.9c3\favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="c:\Users\MANSI\AppData\Local\Temp\7a37ffb6-e4d7-4767-86df-24c20cce7460_favicon_io (1).zip.460\favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+<!--linking CSS file-->
+    <link rel="stylesheet" href="/form2.css">
+</head>
+<body>
+    <!--Create a section-->
+    <section class="hero-section">
+        <!--Create a parent div-->
+        <div class="hero-text">
+          <h1>Welcome to EduEase</h1>
+          <p>EduEase is your ultimate teaching companion designed to revolutionize the way you learn and teach. Whether you're an educator seeking to enhance your teaching methods or a student looking to master new skills, EduEase provides a dynamic, interactive, and user-friendly platform to support your educational needs. To join our community please fill the form given below...</p>
+          </div>
+          </section>
+    <!--creating a container-->
+    <section class="form-container">
+        <!--form-heading-->
+    <h2 class="form-heading" >Get Started</h2>
+        <!--creating a form-->
+        <form id="registrationForm">
+            <!--name div-->
+            <div class="form-group">
+                <label for="fullName">Full Name</label>
+                <div class="input-container">
+                    <i class="fa-solid fa-user"></i>
+                    <input type="text" id="fullName" required>
+                </div>
+                <div id="nameError" class="text-error"></div>
+            </div>
+            <!--email div-->
+            <div class="form-group">
+                <label for="email">Email Id</label>
+                <div class="input-container">
+                    <i class="fa-solid fa-envelope"></i>
+                    <input type="email" id="email" required>
+                </div>
+                <div id="emailError" class="text-error"></div>
+            </div>
+            <!--phone number div-->
+            <div class="form-group">
+                <label for="phone">Phone Number</label>
+                <div class="input-container">
+                    <i class="fa-solid fa-phone"></i>
+                    <input type="text" id="phone" required>
+                </div>
+                <div id="phoneError" class="text-error"></div>
+            </div>
+            <!--password div-->
+            <div class="form-group">
+                <label for="password">Password</label>
+                <div class="input-container">
+                    <i class="fa-solid fa-key"></i>
+                    <input type="password" id="password" required>
+                </div>
+                <div id="passwordError" class="text-error"></div>
+            </div>
+            <!--confirm password div-->
+            <div class="form-group">
+                <label for="confirmPassword">Confirm Password</label>
+                <div class="input-container">
+                    <i class="fa-solid fa-lock"></i>
+                    <input type="password" id="confirmPassword" required>
+                </div>
+                <div id="confirmPasswordError" class="text-error"></div>
+            </div>
+            <button type="submit" class="btn btn-primary">On Submit</button>
+            <button type="button" id="OnChange" class="btn btn-secondary">On Change</button>
+        </form>
+    </section>
+    <h1 class="about-heading" style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; color: rgb(38, 81, 83);text-decoration: underline; font-style: italic;">EduEase</h1>
+    <section class="about-section">
+        <div class="about-us">
+            <p style="font-size:20px">
+                Experience the future of learning with EduEase—India's largest platform dedicated to making education accessible for everyone. Join us in revolutionizing education and unlock your potential today!
+            </p>
+            <br>
+            <h3 style="text-decoration:underline ;">Reach out to us</h3>
+            <p style="font-size:17px">
+                Get your questions answered about learning with Unacademy.
+            </p>
+            <p style="font-weight: 900;">
+                <i class="fa-solid fa-phone"></i>Call 8769879087.
+            </p><br>
+        </div>
+        <div class="amenities" align="center"> 
+            <h3>We provide:</h3>
+            <ul>
+                <li><i class="fa-solid fa-users"></i>Doubt clearing sessions</li>
+                <li><i class="fa-solid fa-chalkboard"></i>Online and offline coaching</li>
+                <li><i class="fa-solid fa-pen"></i>Weekly tests</li>
+                <li><i class="fa-solid fa-chart-line"></i>Progress tracker</li>
+                <li><i class="fa-solid fa-trophy"></i>Certificates</li>
+            </ul>
+        </div>
+    </section>
+
+    <!--linking JS file-->
+    <script src="/form3.js"></script>
+</body>
+</html>

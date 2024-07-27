@@ -1,0 +1,198 @@
+
+.hero-section{
+    background-image: url(https://getwallpapers.com/wallpaper/full/5/3/6/834405-most-popular-learning-wallpapers-1920x1080-for-iphone-5.jpg);
+    background-size:cover;
+    background-blend-mode: overlay;
+    height:120dvh;
+    position:relative;
+    text-align:center;
+    margin-top:20px;
+}
+h1{
+    font-size:35px;
+}
+.hero-text>p{
+    font-size:20px;
+}
+.hero-text{
+    color:black;
+    position:absolute;
+    top:20%;
+    left:50%;
+    transform:translate(-50%,-50%);
+}
+
+body {
+    background-color: white;
+}
+
+.form-container {
+    margin-top:15px;
+    padding: 20px; 
+    background-color: white; 
+    margin-left:30px;
+}
+
+h2 {
+    text-align: left; 
+    margin-bottom: 10px;
+    margin-left:none;
+    margin-top:5px;
+    color:rgb(11, 113, 104);
+    font-size:30px;
+}
+
+.form-group {
+    margin-bottom: 15px; 
+    
+}
+
+label {
+    font-weight:normal; 
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width:100%; 
+    padding: 10px; 
+    border-radius: 5px; 
+    border: 1px solid rgb(203, 201, 201); 
+    transition: border-color 0.3s; 
+    
+}
+.input-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.input-container i {
+    position: absolute;
+    left: 10px;
+    color: grey;
+}
+
+.input-container input {
+    padding-left: 30px;
+}
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus {
+    border-color:rgb(43, 173, 43); 
+    outline: none; 
+}
+
+.btn {
+    width:fit-content; 
+    padding: 10px; 
+    font-size: 16px; 
+    border-radius: 5px; 
+    margin-right: 10px;
+}
+
+.btn-primary {
+    background-color:rgb(88, 189, 207); 
+    border: none; 
+}
+
+.btn-secondary {
+    background-color: rgb(182, 185, 185); 
+    border: none;
+}
+
+.btn-primary:hover,
+.btn-secondary:hover {
+    opacity: 0.9;
+    cursor: pointer;
+}
+.text-error{
+    color:red;
+}
+.about-section > h1{
+    text-align:center;
+    margin:20px 0px;
+    text-decoration:underline;
+}
+
+.about-section{
+    display:flex;
+    justify-content: space-around;
+    align-content: center;
+}
+.about-us{
+    width:50%;
+}
+.about-heading{
+    text-align:center;
+    margin:10 px;
+}
+.amenities ul{
+    display:inline-block;
+    text-align:left;
+    margin-top:10px;
+}
+ul li{
+    list-style: none;
+}
+.fa-solid{
+    margin: 10px;
+}
+
+@media only screen and (max-width:500px){
+    .hero-text>h1{
+        font-size: 22px;
+        text-decoration:none ;
+    }
+    .hero-text>p{
+        font-size: 15px;
+    }
+    .hero-text{
+        margin-top:90px;
+    }
+    .hero-section{
+        height:90dvh;
+        background-size:cover;
+    }
+}
+@media only screen and (min-width:500px) and (max-width:660px){
+    .hero-text>h1{
+        font-size: 22x;
+        text-decoration:none ;
+    }
+    .hero-text>p{
+        font-size: 15px;
+    }
+    .hero-text{
+        margin-top:110px;
+    }
+    
+    .hero-section{
+        height:100dvh;
+        background-size:cover;
+    }
+}
+@media only screen and (min-width:660px) and (max-width:980px){
+    .hero-text>h1{
+        font-size: 2rem;
+        text-decoration:none ;
+    }
+    p{
+        font-size: 0.7rem;
+    }
+    
+    .hero-text{
+        margin-top:90px;
+    }
+    
+    .hero-section{
+        height:110dvh;
+        background-size:cover;
+    }
+}
+
+
+
+
+
+
